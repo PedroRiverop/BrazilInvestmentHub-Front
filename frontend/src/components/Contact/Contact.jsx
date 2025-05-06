@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import "./Contact.css";
 import { FaCheckCircle } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
-import ReCAPTCHA from "react-google-recaptcha";
+//import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -26,13 +26,13 @@ const Contact = () => {
 
     try {
       // Ejecutar reCAPTCHA
-      const token = await recaptchaRef.current.executeAsync();
-      recaptchaRef.current.reset();
+      //const token = await recaptchaRef.current.executeAsync();
+      //recaptchaRef.current.reset();
 
-      if (!token) {
-        alert("No se pudo validar reCAPTCHA.");
-        return;
-      }
+      //if (!token) {
+        //alert("No se pudo validar reCAPTCHA.");
+        //return;
+      //}
 
       // EmailJS template params
       const templateParams = {
@@ -127,11 +127,12 @@ const Contact = () => {
             </div>
           </form>
         )}
-        <ReCAPTCHA
-          ref={recaptchaRef}
-          size="invisible"
-          sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
-        />
+      {/* <ReCAPTCHA
+        ref={recaptchaRef}
+        size="invisible"
+        sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
+      /> */}
+
       </div>
     </section>
   );
