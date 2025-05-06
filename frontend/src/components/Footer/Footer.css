@@ -1,0 +1,39 @@
+.footer-modern {
+    background: linear-gradient(to right, #2d2d2d, #3a3a3a);
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .footer-icon {
+    background-color: #ff7a00;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.6rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footer-icon:hover {
+    background-color: #ffa726;
+    transform: scale(1.1);
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-link {
+    color: #ff7a00;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+    color: #ffa726;
+  }
+
+  
+  

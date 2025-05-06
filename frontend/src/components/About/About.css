@@ -1,0 +1,19 @@
+
+.text-orange {
+    color: #ff7a00;
+  }
+  
+.fs-2 {
+    font-size: 2rem;
+  }
+  
+.text-justify {
+    text-align: justify;
+  }
+    
+  
+@media (max-width: 768px) {
+    .section-space p {
+      font-size: 0.95rem;
+    }
+ }

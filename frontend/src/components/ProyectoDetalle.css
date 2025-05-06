@@ -1,0 +1,192 @@
+.hero-carousel img {
+    height: 80vh;
+    object-fit: cover;
+  }
+  
+  .text-orange {
+    color: #ff7a00;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  .icon-circle {
+    background-color: rgba(255, 122, 0, 0.1);
+    color: #ff7a00;
+    font-size: 2.2rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+  .icon-circle:hover {
+    background-color: #ff7a00;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  .amenities .fw-semibold {
+    transition: color 0.3s ease;
+  }
+  
+  .amenities .fw-semibold:hover {
+    color: #ff7a00;
+  }
+
+  
+
+
+  
+  .proyecto-detalle h2, h3, h4, h5 {
+    font-weight: 700;
+  }
+  
+  .proyecto-detalle p:not(.text-contacto-final) {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .proyecto-detalle img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .fachada-zoom {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: zoom-in;
+  }
+  
+  .fachada-zoom:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text-container-fachada .animate-text-shadow {
+    transition: text-shadow 0.4s ease, color 0.4s ease;
+  }
+  
+  .text-container-fachada .animate-text-shadow:hover {
+    color: #ff7a00;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .animate-fadein {
+    animation: fadeInUp 1s ease-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+
+
+  .seccion-masterplan {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .overlay-masterplan {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+  
+  .z-2 {
+    z-index: 2;
+    position: relative;
+  }
+  
+  .dato-box {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    backdrop-filter: blur(5px);
+    color: #fff;
+    font-size: 1.25rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .dato-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .text-shadow-light {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+
+
+  .ambiente-slider {
+    max-height: 280px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .ambiente-slider:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slick-slide > div {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .react-modal-image {
+    max-width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .react-modal-image:hover {
+    transform: scale(1.03);
+  }
+
+  
+  .text-masterplan {
+    font-size: 1.05rem;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  .text-contacto-final {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #444;
+    line-height: 1.6;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  
+
+  .tipologiaMap {
+    width: 45%;
+    max-width: 225px;
+    margin: auto;
+  }
+
+  .tipologiaText {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
