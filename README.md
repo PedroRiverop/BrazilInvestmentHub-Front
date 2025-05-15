@@ -2,7 +2,7 @@
 
 Landing page informativa para un hub de inversiones inmobiliarias en Brasil, desarrollada utilizando React, Vite y EmailJS.
 
-## 🚀 Descripción del Proyecto
+## Descripción del Proyecto
 
 El proyecto consiste en una landing page destinada a promocionar proyectos inmobiliarios en Brasil, permitiendo la visualización de proyectos, características, ubicación y contacto directo a través de un formulario que envía correos utilizando EmailJS y está protegido mediante reCAPTCHA invisible v2.
 
@@ -31,7 +31,7 @@ El proyecto consiste en una landing page destinada a promocionar proyectos inmob
 
 ---
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 1. Clonar el repositorio:
 
@@ -63,7 +63,7 @@ npm run dev
 
 ---
 
-## 🌐 Deploy en Vercel
+## Deploy en Vercel
 
 El proyecto está actualmente desplegado en [Vercel](https://vercel.com) y conectado al dominio personalizado:
 
@@ -71,17 +71,17 @@ El proyecto está actualmente desplegado en [Vercel](https://vercel.com) y conec
 
 ---
 
-## 📸 Capturas de Pantalla
+## Capturas de Pantalla
 
 ### Página principal
-![Página principal](./assets/screenshots/bzhhome.png)
+![Página principal](./assets/screenshots/bzhproject.png)
 
-### Sección de Contacto
-![Sección de Contacto](./assets/screenshots/bzhproject.png)
+### Sección de Proyectos
+![Sección de Proyectos](./assets/screenshots/bzhhome.png)
 
 ---
 
-## ✅ Próximos Pasos / To-Do
+## To-Do
 
 * Implementar integración con Google Sheets para almacenar contactos
 * Migrar lógica de EmailJS a un backend Flask
@@ -90,6 +90,6 @@ El proyecto está actualmente desplegado en [Vercel](https://vercel.com) y conec
 
 ---
 
-## 📬 Contacto y Contribuciones
+## Contacto y Contribuciones
 
-Para consultas o contribuciones, puedes contactarme a través de \josepedroriveropena@gmail.com o crear un issue en el repositorio.
+Para consultas o contribuciones, puedes contactarme a través de josepedroriveropena@gmail.com o crear un issue en el repositorio.
