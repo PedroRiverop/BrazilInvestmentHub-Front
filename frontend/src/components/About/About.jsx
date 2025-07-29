@@ -17,7 +17,12 @@ const About = () => {
             inmuebles y consultoría para inversores de habla hispana. Conectamos a nuestros clientes con las mejores
             oportunidades del mercado carioca, ofreciendo asesoramiento estratégico, conocimiento local y
             un acompañamiento integral y confiable.
+            <br />
+            <br />
+            Tenemos sucursales digitales en Argentina y Bolivia. Contáctanos y te asesoramos
+            tu jornada de inversión en Rio de Janeiro.
           </p>
+        
 
           <div className="d-flex gap-4 mt-4 justify-content-center">
             <div className="text-center">

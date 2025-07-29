@@ -38,7 +38,7 @@ const Footer = () => (
             rel="noopener noreferrer"
             className="footer-link"
         >
-            Pedro Rivero Peña
+            Pedroriverop
         </a>
         </small>
 
